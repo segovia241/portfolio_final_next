@@ -1,5 +1,4 @@
 "use client";
-import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 // Definir el tipo para las props, especificando que onAnimationComplete es una función opcional

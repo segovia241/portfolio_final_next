@@ -30,7 +30,7 @@ export default function Header() {
       window.scrollTo({
         top: element.offsetTop - 80, // Offset for header height
         behavior: "smooth",
-        // @ts-ignore - Safari needs this property
+        // @ts-expect-error - Safari needs this property
         scrollBehavior: "smooth",
         duration: 300,
       });

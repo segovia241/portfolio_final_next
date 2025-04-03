@@ -1,20 +1,4 @@
-import {
-  Database,
-  Layout,
-  Palette,
-  Server,
-  Workflow,
-  Code,
-  FileJson,
-  Layers,
-  Cpu,
-  Figma,
-  Accessibility,
-  MonitorSmartphone,
-  Boxes,
-  CloudCog,
-  Rocket,
-} from "lucide-react";
+import { Database, Layout, Palette, Server, Workflow } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -41,7 +25,6 @@ import {
   faCode,
   faArrowAltCircleUp,
   faBox,
-  faServer,
   faCloudSun,
   faRocket,
   faLayerGroup,
@@ -192,13 +175,6 @@ export default function Skills() {
       ],
     },
   ];
-
-  // Calculate how many cards to render in each row based on screen size
-  const cardsPerRow = {
-    sm: 1,
-    md: 2,
-    lg: 3,
-  };
 
   return (
     <section id="skills" className="py-16 relative mx-5">

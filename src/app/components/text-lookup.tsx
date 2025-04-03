@@ -37,7 +37,7 @@ export default function TextLookup(props: { children: string }) {
             setTranslations(results.data as TextEntry[]);
             setIsLoading(false);
           },
-          error: (error: { message: any }) => {
+          error: (error: { message: string }) => {
             setError(`CSV parsing error: ${error.message}`);
             setIsLoading(false);
           },

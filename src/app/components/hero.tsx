@@ -1,5 +1,5 @@
 import { Button } from "@components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 import TextLookup from "@components/text-lookup";
 
